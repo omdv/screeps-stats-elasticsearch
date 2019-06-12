@@ -1,0 +1,17 @@
+{
+  "name": "screeps-stats-elasticsearch",
+  "version": "1.0.0",
+  "description": "minimalistic nodejs screeps stats agent for elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "omdv",
+  "license": "ISC",
+  "dependencies": {
+    "es7": "npm:@elastic/elasticsearch@^7.0.0",
+    "axios": "^0.19.0",
+    "zlib": "^1.0.5"
+  }
+}

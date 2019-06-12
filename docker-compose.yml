@@ -1,0 +1,8 @@
+version: "2"
+services:
+  node:
+    build:
+        context: stats/
+        dockerfile: Dockerfile
+    restart: always
+    env_file: docker-compose.env
